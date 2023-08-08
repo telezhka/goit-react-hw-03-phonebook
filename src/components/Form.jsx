@@ -22,6 +22,7 @@ export class Form extends Component {
     }
     this.props.onAddContact(name, number);
     this.setState({ name: '', number: '' });
+    console.log(this.state);
   };
 
   render() {
